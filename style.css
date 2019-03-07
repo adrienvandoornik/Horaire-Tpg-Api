@@ -1,0 +1,138 @@
+body{
+    background-color: white;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fc5312;
+}
+
+h3 {
+    font-size: 1em;
+    color: #fc5312;
+}
+
+input[type=text] {
+    width: 75%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.logo {
+    padding-top: 14px;
+    width: 100%;
+    height: 100px;
+}
+
+.title {
+    width: 100%;
+    height: 80px;
+    background-color:  #fc5312;
+}
+
+.gigasearchbar {
+    padding-top: 15px;
+    padding-left: 2%;
+    width:95%;
+    height: 80px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #8b9dc3;
+    color: #fc5312;
+    font-size: 14px;
+}
+
+td {
+    color: black;
+    font-size: 14px;
+    padding: 15px;
+    padding-top: 15px;
+    text-align: left;
+    border-bottom: 1px solid #fc5312;
+}
+
+td.waitingTime {
+    width: 25%;
+    padding-left: 5%;
+}
+
+td.lineCode {
+    width: 25%;
+    padding-left: 5%;
+}
+
+td.destination {
+    width: 25%;
+    padding-left: 5%;
+}
+
+tr {
+    color: black;
+    font-size: 14px;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #fc5312;
+}
+
+tr:hover {
+    background-color: #fc5312;
+  }
+
+tr:hover i {
+    color: white;
+  }
+
+.button {
+    background-color: rgb(49, 49, 49);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    margin:4px 8px;
+    cursor: pointer;
+    height:46px;
+    width:20%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.button:hover{
+    background-color: black;
+}
+
+i {
+    color: #fc5312;
+}
+
